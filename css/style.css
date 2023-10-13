@@ -37,3 +37,7 @@
 .cell-7{
     flex-basis: calc(100% / 7);
 }
+
+.cell-clicked{
+    background-color: aquamarine;
+}
