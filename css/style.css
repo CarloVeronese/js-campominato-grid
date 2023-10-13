@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-10{
+    flex-basis: calc(100% / 10);
+}
+
+.cell-9{
+    flex-basis: calc(100% / 9);
+}
+
+.cell-7{
+    flex-basis: calc(100% / 7);
+}
