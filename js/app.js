@@ -2,7 +2,10 @@ const gridDOMElement = document.querySelector('.row')
 
 const playDOMElement = document.querySelector('.play-btn')
 
-createGrid(100)
+playDOMElement.addEventListener('click',function(){
+    emptyGrid()
+    createGrid(100)
+})
 
 function emptyGrid(){
     gridDOMElement.innerHTML = ''

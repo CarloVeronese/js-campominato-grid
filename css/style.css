@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.section{
+    padding: 25px 0;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
